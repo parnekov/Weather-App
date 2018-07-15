@@ -1,0 +1,121 @@
+<resources>
+    <string name="search">Search</string>
+    <string name="update">Update weather</string>
+    <string name="getting_weather">Getting the weather....</string>
+
+    <string name="provider_gps" translatable="false">GPS</string>
+    <string name="provider_network">Network</string>
+    <string name="location_settings">Location settings</string>
+    <string name="text_temperature" translatable="false">%1$s°</string>
+    <string name="text_humidity">Humidity: %1$s p</string>
+    <string name="text_pressure">Pressure: %1$s</string>
+    <string name="text_population">Population: %1$s p.</string>
+    <string name="image_view" translatable="false">ImageDetail</string>
+    <string name="icon_head" translatable="false">icon_head</string>
+    <string name="non_location">"Unable to Trace your location"</string>
+    <string name="turn_on_gps">"Please Turn ON your GPS Connection"</string>
+    <string name="turn_on_internet">"Please Turn ON your Internet Connection"</string>
+    <string name="celcium" translatable="false">"°"</string>
+    <string name="another_city">Another City</string>
+    <string name="ivano_frankivsk" translatable="false">Ivano-Frankivsk</string>
+    <string name="ua" translatable="false">UA</string>
+    <string name="saturday">Saturday</string>
+    <string name="test_19_may">19 May</string>
+    <string name="test_16" translatable="false">%1$s</string>
+    <string name="test_cloud">Cloud</string>
+    <string name="morning">Morning</string>
+    <string name="night">Night</string>
+    <string name="evening">Evening</string>
+    <string name="day">Day</string>
+    <string name="put_city">Enter the place</string>
+    <string name="email_address" translatable="false">oleksandr.parnekov@gmail.com</string>
+    <string name="email_subject">Sunny App</string>
+    <string name="email_text_hello">Hello, Oleksandr Parnekov! Good application!</string>
+    <string name="put_correct">Enter the correct city name</string>
+    <string name="pressure_lowered">low</string>
+    <string name="pressure_normal">normal</string>
+    <string name="pressure_high">high</string>
+
+
+
+    <string name="thunderstorm_with_light_rain">thunderstorm with light rain</string>
+    <string name="thunderstorm_with_rain">thunderstorm with rain</string>
+    <string name="thunderstorm_with_heavy_rain">thunderstorm with heavy rain</string>
+    <string name="thunderstorm_light">light thunderstorm</string>
+    <string name="thunderstorm">thunderstorm</string>
+    <string name="thunderstorm_heavy">heavy thunderstorm</string>
+    <string name="thunderstorm_ragged">ragged thunderstorm</string>
+    <string name="thunderstorm_with_light_drizzle">thunderstorm with light drizzle</string>
+    <string name="thunderstorm_with_heavy_drizzle">thunderstorm with heavy drizzle</string>
+    <string name="thunderstorm_with_drizzle">thunderstorm with drizzle</string>
+
+    <string name="drizzle">drizzle</string>
+    <string name="drizzle_rain">drizzle rain</string>
+    <string name="drizzle_shower">shower drizzle</string>
+    <string name="drizzle_light_intensity">light intensity drizzle</string>
+    <string name="drizzle_light_intensity_rain">light intensity drizzle rain</string>
+    <string name="drizzle_heavy_intensity">heavy intensity drizzle</string>
+    <string name="drizzle_heavy_intensity_rain">heavy intensity drizzle rain</string>
+    <string name="drizzle_shower_rain">shower rain and drizzle</string>
+    <string name="drizzle_shower_rain_heavy">heavy shower rain and drizzle</string>
+
+    <string name="rain_moderate">moderate rain</string>
+    <string name="rain_heavy_intensity">heavy intensity rain</string>
+    <string name="rain_extreme">extreme rain</string>
+    <string name="rain_freezing">freezing rain</string>
+    <string name="rain_light_intensity_shower">light intensity shower rain</string>
+    <string name="rain_shower">shower rain</string>
+    <string name="rain_heavy_intensity_shower">heavy intensity shower rain</string>
+
+    <string name="snow">snow</string>
+    <string name="snow_light">light snow</string>
+    <string name="snow_heavy">heavy snow</string>
+    <string name="sleet">sleet</string>
+    <string name="snow_light_shower">light shower snow</string>
+    <string name="snow_heavy_shower">heavy shower snow</string>
+    <string name="snow_shower">shower snow</string>
+    <string name="snow_light_rain">light rain and snow</string>
+    <string name="snow_rain">rain and snow</string>
+    <string name="sleet_shower">shower sleet</string>
+
+    <string name="sky_is_clear">sky is clear</string>
+    <string name="clouds_few">few clouds</string>
+    <string name="clouds_scattered">scattered clouds</string>
+    <string name="clouds_broken">broken clouds</string>
+    <string name="clouds_overcast">overcast clouds</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="no_internet_connection_please_connect">No Internet connection. Please connect.</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_subtitle">Have a nice day and nice weather!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="write_feedback">Write FeedBack</string>
+    <string name="nav_updating">Updating....</string>
+    <string name="about">About</string>
+    <string name="info">Info</string>
+    <string name="send_a_few_words">Send a few words</string>
+    <string name="share_app">Share app</string>
+    <string name="communicate">Communicate</string>
+
+    <!--dialog info about strings-->
+    <string name="dialog_info_title">App information</string>
+    <string name="dialog_info_version" translatable="false">v1.0</string>
+    <string name="nav_dialog_info_first_text">Simple and convenient App for check weather every time.</string>
+    <string name="nav_dialog_info_second_text">You get information about:</string>
+    <string name="nav_dialog_info_third_text">- Weather forecast for the next 5 days (by coordinates and according to your specified city)</string>
+    <string name="nav_dialog_info_forth_text">- Recommendations for the selection of clothes and accessories</string>
+    <string name="fb_url" translatable="false">https://www.facebook.com/o.parnekov</string>
+    <string name="li_url" translatable="false">https://www.linkedin.com/in/parniekov-sasha/</string>
+    <string name="gp_url" translatable="false">https://play.google.com/store/apps/developer?id=Parnekov+Sasha</string>
+    <string name="dialog_app_url" translatable="false">https://</string>
+    <string name="dialog_info_close" translatable="false">OK</string>
+    <string name="parnekov_oleksandr">ⓒ 2018 Parnekov Oleksandr</string>
+    <string name="developer">Android Developer</string>
+    <string name="nav_dialog_info_fifth_text">- Number of people per selected location</string>
+    <string name="app_name">Sunny</string>
+    <string name="rain_shower_ragged">ragged shower rain</string>
+    <string name="rain_heavy_very">very heavy rain</string>
+    <string name="rain_light">light rain</string>
+
+</resources>

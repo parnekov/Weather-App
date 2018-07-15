@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#006064</color>
+    <color name="colorAccent">#ffc107</color>
+    <color name="colorBackgroundModel">#E0F7FA</color>
+    <color name="colorBackgroundTitle">#ffa000</color>
+    <color name="colorBackgroundEndDetail">#ffc107</color>
+    <color name="colorTextDayOfWeek">#ff6f00</color>
+    <color name="colorBackgroundTemperature">#2f343a</color>
+    <color name="colorDividerDetails">#d1f4fa</color>
+    <color name="colorDividerLayouts">#5c6dd3ef</color>
+    <color name="colorNavigation">#bde8f4</color>
+    <color name="colorListClicker">#EEEEEE</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorPrimaryText">#424242</color>
+    <color name="colorTransparent">#5b000000</color>
+    <color name="colorBackgroundDay">#5c6bc0</color>
+    <color name="colorBackgroundDay2">#40c4ff</color>
+    <color name="colorBackgroundDaySecond">#7986cb</color>
+    <color name="colorTextDay">#252563</color>
+    <color name="colorDialog">#ffca28</color>
+
+
+    <color name="colorTextTempBigNumber__20__10">#1976d2</color>
+    <color name="colorTextTempBigNumber__10__5">#1e88e5</color>
+    <color name="colorTextTempBigNumber__5_0">#42a5f5</color>
+    <color name="colorTextTempBigNumber_0_5">#4dd0e1</color>
+    <color name="colorTextTempBigNumber_5_10">#1de9b6</color>
+    <color name="colorTextTempBigNumber_10_15">#4caf50</color>
+    <color name="colorTextTempBigNumber_15_20">#fdd835</color>
+    <color name="colorTextTempBigNumber_20_25">#ffc400</color>
+    <color name="colorTextTempBigNumber_25_30">#ef6c00</color>
+    <color name="colorTextTempBigNumber_30_40">#d84315</color>
+
+</resources>

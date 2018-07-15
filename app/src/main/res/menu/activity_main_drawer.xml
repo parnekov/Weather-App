@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:title="@string/another_city"/>
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/ic_update"
+            android:title="@string/update"/>
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share_app"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_email"
+                android:title="@string/send_a_few_words"/>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="@string/write_feedback"/>
+
+        </menu>
+    </item>
+
+
+    <item android:title="@string/about">
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_info"
+                android:title="@string/info"/>
+        </menu>
+    </item>
+</menu>

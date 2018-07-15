@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main_layout_ID"
+    android:background="@drawable/shape_for_day_details_backg"
+    tools:context="com.parnekov.sasha.weathertwo.activity.WeatherListActivity"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:clickable="true"
+            android:background="?android:selectableItemBackground">
+        </android.support.v7.widget.RecyclerView>
+
+    </FrameLayout>
+
+    <include layout="@layout/view_progress"/>
+
+    <include
+        layout="@layout/dialog"
+        android:visibility="invisible"/>
+
+</LinearLayout>

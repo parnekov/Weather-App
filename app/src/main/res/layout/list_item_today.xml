@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_for_item_today"
+    android:gravity="center"
+    android:elevation="8dp"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:targetApi="lollipop">
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/tv_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="8dp"
+            android:contentDescription="@null"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="4dp"
+            android:background="#fac481"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/arkhip_font"
+                    android:text="City"
+                    android:textStyle="italic"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/arkhip_font"
+                    android:text=", "
+                    android:textStyle="italic"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/tv_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arkhip_font"
+                    android:text="Country"
+                    android:textStyle="italic"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_day_of_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arkhip_font"
+                android:text="Date"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bitter_regular"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="140sp"
+        android:textStyle="bold"
+        tools:text="16"/>
+
+</LinearLayout>

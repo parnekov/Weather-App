@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/shape_for_dialog"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/colorDialog"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_info"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arkhip_font"
+            android:padding="8dp"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            tools:targetApi="lollipop"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arkhip_font"
+            android:text="@string/dialog_info_version"
+            tools:targetApi="lollipop"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bitter_regular"
+            android:text="@string/nav_dialog_info_first_text"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_blue_dark"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_mono"
+            android:text="@string/nav_dialog_info_second_text"/>
+
+        <TextView
+            android:paddingLeft="8dp"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_mono"
+            android:text="@string/nav_dialog_info_fifth_text"
+            android:paddingStart="8dp"/>
+
+        <TextView
+            android:paddingLeft="8dp"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_mono"
+            android:text="@string/nav_dialog_info_third_text"
+            android:paddingStart="8dp"/>
+
+        <TextView
+            android:paddingLeft="8dp"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_mono"
+            android:text="@string/nav_dialog_info_forth_text"
+            android:paddingStart="8dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/developerUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arkhip_font"
+            android:text="@string/parnekov_oleksandr"
+            android:textStyle="bold"
+            tools:targetApi="lollipop"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_facebook"
+            android:layout_width="64sp"
+            android:layout_height="64sp"
+            android:layout_margin="16dp"
+            android:elevation="8dp"
+            android:src="@drawable/ic_facebook"
+            tools:targetApi="lollipop"/>
+
+        <ImageButton
+            android:id="@+id/button_github"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="16dp"
+            android:background="@null"
+            android:elevation="8dp"
+            android:src="@drawable/google_icon"
+            tools:targetApi="lollipop"/>
+
+        <ImageButton
+            android:id="@+id/button_linkedin"
+            android:layout_width="64sp"
+            android:layout_height="64sp"
+            android:layout_margin="16dp"
+            android:elevation="8dp"
+            android:src="@drawable/ic_linkedin"
+            tools:targetApi="lollipop"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_width="260dp"
+        android:layout_height="1dp"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@null"
+        android:id="@+id/button_OK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"/>
+
+</LinearLayout>

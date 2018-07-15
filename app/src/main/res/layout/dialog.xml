@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:background="@drawable/shape_for_dialog"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorDialog"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_search"/>
+
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edit_text_user"
+        android:fontFamily="@font/bitter_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/put_city"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@null"
+            android:id="@+id/button_OK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"/>
+
+        <Button
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@null"
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
