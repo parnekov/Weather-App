@@ -7,7 +7,7 @@ android {
         applicationId "com.parnekov.sasha.weathertwo"
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 1
+        versionCode 2
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -24,13 +24,15 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:26.+'
     implementation 'com.android.support:recyclerview-v7:26.+'
     implementation 'com.android.support:design:26.+'
-    implementation "android.arch.persistence.room:runtime:1.0.0"
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation "android.arch.persistence.room:runtime:1.0.0"
     annotationProcessor "android.arch.persistence.room:compiler:1.0.0"
     implementation 'com.jakewharton:butterknife:8.6.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.12'
 
-
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.12'
+    implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
 
 }

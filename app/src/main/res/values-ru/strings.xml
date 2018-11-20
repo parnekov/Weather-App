@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sunny</string>
+    <string name="app_name">Солничная Погода</string>
     <string name="test_19_may">19 мая</string>
     <string name="nav_dialog_info_fifth_text">- Численность населения в выбраном месте</string>
     <string name="developer">Андроид разработчик</string>

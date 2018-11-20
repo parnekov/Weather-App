@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Сонечко</string>
+    <string name="app_name">Сонячна Погода</string>
     <string name="sky_is_clear">Сонячно</string>
     <string name="clouds_few">кілька хмар</string>
     <string name="clouds_scattered">розкидані хмари</string>

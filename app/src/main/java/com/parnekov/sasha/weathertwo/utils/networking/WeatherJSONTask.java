@@ -47,7 +47,9 @@ public final class WeatherJSONTask extends AsyncTask<String, Void, List<WeatherM
         }
 
         if (weatherModels == null) {
-            mProgress.setVisibility(View.VISIBLE);
+            if (mProgress != null) {
+                mProgress.setVisibility(View.VISIBLE);
+            }
             mWeatherAdapter.updateWeatherListFromDatabase();
             mWeatherAdapter.notifyDataSetChanged();
             mProgress.setVisibility(View.INVISIBLE);

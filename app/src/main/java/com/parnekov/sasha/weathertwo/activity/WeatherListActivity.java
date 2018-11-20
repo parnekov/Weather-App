@@ -48,6 +48,7 @@ public class WeatherListActivity extends AppCompatActivity implements OnWeatherC
     @BindView(R.id.toolbar) Toolbar mToolbar;
     @BindView(R.id.toolbar_container) RelativeLayout relativeLayout;
     @BindView(R.id.edit_text_user) EditText mEditText;
+
     @BindView(R.id.drawer_layout) DrawerLayout mDrawerLayout;
     @BindView(R.id.nav_view) NavigationView navigationView;
 
@@ -62,7 +63,7 @@ public class WeatherListActivity extends AppCompatActivity implements OnWeatherC
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);  // initialize views
         includeToolBar();    // create toolbar
-        createDrawer();      // create navigation view
+        createDrawer();
         onCreateRecycler();  // create adapter
         getContent(this, LocationModel.getLocationModel().getFinalPlace());  // get information about weather
 
@@ -90,12 +91,13 @@ public class WeatherListActivity extends AppCompatActivity implements OnWeatherC
                 getJSON(null);
         } else {
             // if we do not have net connection get info from database
-            if (MyDataBase.getRoom(this).get(0).getCondition() == null) {
-                buildAlertMessageNoInternet(this);
-            } else {
+            if (MyDataBase.getRoom(this).size() >0){
                 mAdapter.updateWeatherListFromDatabase();
                 mAdapter.notifyDataSetChanged();
+            } else {
+                Toast.makeText(context, "Turn On The Internet", Toast.LENGTH_SHORT).show();
             }
+
             mProgress.setVisibility(View.GONE);
         }
     }
@@ -230,14 +232,7 @@ public class WeatherListActivity extends AppCompatActivity implements OnWeatherC
         return true;
     }
 
-    // createDrawer
-    private void createDrawer() {
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, mDrawerLayout, mToolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        mDrawerLayout.addDrawerListener(toggle);
-        toggle.syncState();
-        navigationView.setNavigationItemSelectedListener(this);
-    }
+
 
 
     @Override
@@ -257,5 +252,17 @@ public class WeatherListActivity extends AppCompatActivity implements OnWeatherC
             return true;
         }
     });
+
+    private void createDrawer(){
+        ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(
+                this,
+                mDrawerLayout,
+                mToolbar,
+                R.string.navigation_drawer_open,
+                R.string.navigation_drawer_close);
+        mDrawerLayout.addDrawerListener(actionBarDrawerToggle);
+        actionBarDrawerToggle.syncState();
+        navigationView.setNavigationItemSelectedListener(this);
+    }
 }
 
