@@ -1,5 +1,5 @@
 
-# KM Events
+# Weather-App
 
 Technologies, elements and libraries used when writing an application:
 Java, Android SDK, HttpConnection, GPS Navigation, AsycTask, JSON Parsing, SQLite Database(Room library), ButterKnife.
